@@ -1,0 +1,30 @@
+[package]
+name = "bevy-audio-anim-demo"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+resolver = "2"
+
+[dependencies]
+bevy = "0.19"
+
+# audio_basic
+[[example]]
+name = "audio_basic"
+
+# audio_control
+[[example]]
+name = "audio_control"
+
+# audio_spatial
+[[example]]
+name = "audio_spatial"
+
+# anim_basic
+[[example]]
+name = "anim_basic"
+
+# anim_clip
+[[example]]
+name = "anim_clip"
